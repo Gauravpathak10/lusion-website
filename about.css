@@ -1,0 +1,371 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* first head */
+
+.head-language {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+}
+
+.head-language ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    text-transform: capitalize;
+    padding: 2px;
+}
+
+.head-language select {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+/* end first head */
+
+/* navbar */
+
+.logo img {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+/* navbar-ended */
+
+.first-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.abs {
+    position: absolute;
+    width: 287px;
+    height: 265px;
+    background: #0d0d0d;
+    left: -7px;
+    top: 62px;
+    z-index: -1;
+}
+
+.left-flex img {
+    padding: 8px;
+}
+
+.first-flex h1 {
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.first-flex p {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left-flex {
+    width: 740px;
+    margin: 10px;
+}
+
+.right-flex {
+    border: 1px solid black;
+    width: max-content;
+    position: relative;
+}
+
+.right-flex img {
+    width: 500px;
+    transform: scale(1.1);
+}
+
+.right-flex img:hover {
+    transform: scale(1.5);
+    transition: 1s all;
+}
+
+figure {
+    overflow: hidden;
+}
+
+.vision {
+    display: inline-block;
+    padding: 16px;
+}
+
+.vision h2 {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.vision ul {
+    list-style: circle;
+}
+
+.vision li {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(92, 89, 89);
+    border-bottom: 1px solid gainsboro;
+}
+
+.abc {
+    position: absolute;
+    width: 287px;
+    height: 265px;
+    background: #0d0d0d;
+    top: -8px;
+    z-index: -1;
+    right: -7px;
+}
+
+/* third-sect */
+
+.box {
+    width: 70%;
+    background: rgb(44, 44, 44);
+    position: relative;
+    margin: auto;
+    padding: 26px;
+    bottom: -60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+}
+
+.height {
+    border: 1px solid gainsboro;
+}
+
+.icon i {
+    font-size: 50px;
+    color: white;
+    padding: 4px;
+}
+
+.icon h3 {
+    font-size: 18px;
+    color: white;
+    padding: 4px;
+    font-weight: 300;
+    font-family: serif;
+}
+
+.icon:hover i {
+    transform: translateY(-10px);
+    transition: 1s all;
+    transform-origin: bottom;
+}
+
+/* end */
+
+.flex-four {
+    background-color: #87cefa24;
+    ;
+    padding: 30px;
+}
+
+.flex-four h1 {
+    margin: 70px;
+    text-align: center;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+}
+
+.img img {
+    width: 333px;
+    transform: scale(1.1);
+}
+
+.img figure {
+    overflow: hidden;
+}
+
+.img img:hover {
+    transform: scale(1.2);
+    transition: 1s all;
+}
+
+.img {
+    border: 1px solid black;
+}
+
+.img-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* lastflex */
+
+.last-flex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+.last-flex p {
+    padding: 5px;
+}
+
+.h1 {
+    text-align: center;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.last-flex img {
+    width: 60px;
+    padding: 5px;
+}
+
+.box1 {
+    border: 1px solid black;
+    margin: 20px;
+    height: 230px;
+    line-height: 2;
+    padding: 19px;
+    width: 320px;
+}
+
+.last-head-content {
+    display: inline-flex;
+    padding: 5px;
+}
+
+/* footer */
+
+.footer-display {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 80px;
+    border-top: 1px solid gainsboro;
+}
+
+.footer-display i {
+    padding: 5px;
+    color: rgb(12, 11, 11);
+}
+
+.foot {
+    line-height: 3;
+    padding: 10px;
+}
+
+.foot h1 {
+    font-size: 18px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.foot h2 {
+    font-size: 15px;
+    color: rgb(154, 154, 154);
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot h2:hover {
+    color: rgb(225, 170, 94);
+}
+
+input {
+    width: 262px;
+    border: 1px solid #cebbbb;
+    padding: 12px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.foot button {
+    padding: 9px;
+    width: 50px;
+    color: rgb(252, 250, 248);
+    border: none;
+    background-color: rgb(225, 170, 94);
+}
+
+.foot button i {
+    color: white;
+}
+
+.foot i {
+    color: rgb(154, 154, 154);
+}
+
+input:focus {
+    border: 1px solid #cebbbb;
+    outline: none;
+}
+
+/* last-footer */
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    height: 50px;
+}
+
+.last-footer h1 {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.last-foot-bc {
+    background-color: rgb(12, 12, 12);
+}
+
+.footer-display img {
+    width: 111px;
+}

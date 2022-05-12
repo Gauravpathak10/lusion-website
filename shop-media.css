@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1264px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar {
+        display: none;
+    }
+    .flex-content {
+        line-height: 2;
+        display: block;
+        margin: auto;
+    }
+    .footer-display {
+        /* display: flex; */
+        justify-content: space-evenly;
+        padding: 20px;
+        display: block;
+        margin-top: 80px;
+        border-top: 1px solid gainsboro;
+    }
+    .fourth-section {
+        /* display: flex; */
+        display: block;
+        max-width: max-content;
+        margin: auto;
+    }
+    .last-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 98%;
+        display: none;
+        margin: auto;
+        height: 50px;
+    }
+    .addtocart {
+        display: inline-block;
+        background: black;
+        color: white;
+        box-sizing: border-box;
+        padding: 4px;
+        width: 250px;
+        text-align: center;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        display: none;
+    }
+    .flex-content {
+        /* display: flex; */
+        display: block;
+        /* padding: 25px; */
+        line-height: 3;
+        /* width: 248%; */
+        margin: auto;
+        width: fit-content;
+        text-align: center;
+    }
+    .right-content {
+        margin-left: 48px;
+    }
+    .flex-content img {
+        width: 415px;
+        border: 1px solid rgb(182, 171, 171);
+    }
+    textarea {
+        width: 267px;
+        padding: 5px;
+        margin: 9px;
+        outline: none;
+        border: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgb(134, 126, 126);
+    }
+    .fourth-section {
+        /* display: flex; */
+        display: block;
+        margin: auto;
+        width: min-content;
+        /* justify-content: space-evenly; */
+    }
+    .footer-display {
+        /* display: flex; */
+        display: block;
+        justify-content: space-evenly;
+        padding: 20px;
+        margin-top: 80px;
+        width: max-content;
+        text-align: center;
+        border-top: 1px solid gainsboro;
+    }
+    .last-foot-bc {
+        background-color: rgb(12, 12, 12);
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .flex-content {
+        /* display: flex; */
+        display: block;
+        padding: 37px;
+        line-height: 3;
+        width: fit-content;
+        text-align: center;
+    }
+    input {
+        /* width: 376px; */
+        width: min-content;
+        border: 1px solid #cebbbb;
+        padding: 12px;
+        text-transform: capitalize;
+        box-sizing: border-box;
+    }
+    .footer-display {
+        /* display: flex; */
+        display: block;
+        justify-content: space-evenly;
+        padding: 20px;
+        margin-top: 80px;
+        /* width: max-content; */
+        text-align: center;
+        border-top: 1px solid gainsboro;
+    }
+    .products-h1 {
+        font-family: serif;
+        /* padding: 82px; */
+        font-size: 17px;
+        /* margin: 0px; */
+        margin-bottom: 9px;
+        padding: 3px;
+        /* text-align: center; */
+        margin-left: 42%;
+    }
+    .fourth-section {
+        /* display: flex; */
+        display: block;
+        margin: auto;
+        margin-left: 42%;
+        width: min-content;
+        /* justify-content: space-evenly; */
+    }
+    textarea {
+        width: 267px;
+        padding: 5px;
+        margin: 9px;
+        outline: none;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgb(134, 126, 126);
+    }
+    .submit {
+        text-align: end;
+        /* width: 627px; */
+        width: auto;
+    }
+}

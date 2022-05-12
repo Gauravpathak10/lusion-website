@@ -1,0 +1,226 @@
+@media only screen and (max-width: 1264px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar {
+        display: none;
+    }
+    .flex-home-first-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .row {
+        display: flex;
+        /* margin: 16px; */
+        flex-direction: column;
+    }
+    .image {
+        margin: auto;
+    }
+    .image2 {
+        margin: auto;
+    }
+    .fourth-section {
+        display: block;
+    }
+    .fourth-section-child {
+        /* display: flex; */
+        width: 300px;
+        margin: auto;
+        height: 358px;
+        overflow: hidden;
+    }
+    .content-right-five {
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    .main-five-flex {
+        display: block;
+        margin: 20px;
+        padding: 20px;
+        background-color: rgb(235, 238, 238);
+    }
+    .content-right-five a {
+        font-size: 16x;
+        /* float: right; */
+        color: #E1AA5E;
+        display: contents;
+    }
+    .zoom-In-five p {
+        padding: 10px;
+        text-align: center;
+        line-height: 3;
+        color: rgb(5, 5, 5);
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    .zoom-In-five h1 {
+        padding: 10px;
+        color: rgb(10, 10, 10);
+        text-transform: capitalize;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    button {
+        padding: 16px;
+        /* text-align: center; */
+        /* margin: 6px; */
+        margin: auto;
+        margin-top: 5px;
+        display: block;
+        /* line-height: 0; */
+        /* margin: 0px; */
+        border: 1px solid burlywood;
+        width: 208px;
+    }
+    .figure2 {
+        width: 190px;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border: 1px solid burlywood;
+        /* display: inline-block; */
+    }
+    .zoom-In {
+        width: 673px;
+        margin-top: 15%;
+        padding-top: 10px;
+        margin: auto;
+    }
+    .footer-display {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        padding: 20px;
+    }
+    .last-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 98%;
+        margin: auto;
+        height: 50px;
+    }
+    .foot button {
+        padding: 9px;
+        width: 50px;
+        border: none;
+        margin: revert;
+        color: rgb(252, 250, 248);
+        background-color: rgb(225, 170, 94);
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    * {
+        overflow-x: hidden;
+    }
+    .flex-home-first-section {
+        /* display: flex; */
+        text-align: center;
+        display: block;
+        margin: auto;
+        align-items: center;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .content-left h2 {
+        font-size: 2em;
+        font-family: -webkit-pictograph;
+    }
+    .content-right-third {
+        /* margin: auto; */
+        padding: 7px;
+        text-align: center;
+        width: 66%;
+        margin-bottom: 10px;
+        margin-top: -5px;
+        border: 1px solid gainsboro;
+    }
+    .row {
+        display: flex;
+        /* margin: 16px; */
+        text-align: center;
+        /* margin: auto; */
+        flex-direction: column;
+    }
+    .figure2 {
+        width: 190px;
+        display: block;
+        margin: revert;
+        margin-top: 5px;
+        border: 1px solid burlywood;
+        /* display: inline-block; */
+    }
+    .figure2 img {
+        height: 250px;
+        width: inherit;
+        background-color: white;
+        /* margin: auto; */
+    }
+    .content-right-five a {
+        font-size: 18x;
+        /* float: right; */
+        display: contents;
+        color: #E1AA5E;
+        /* margin-top: -72px; */
+    }
+    .fa-arrow-circle-right {
+        display: none;
+    }
+    .content-right img {
+        width: 276px;
+        margin: 5px;
+        /* width: fit-content; */
+        height: 300px;
+    }
+    .second-section-icons {
+        /* display: flex; */
+        display: block;
+        margin-top: 24px;
+        justify-content: center;
+    }
+    .image #zoom-In figure img {
+        transform: scale(1);
+        width: 312px;
+        transition: 0.3s ease-in-out;
+    }
+    .dear {
+        /* height: 263px; */
+        width: 290px;
+    }
+    .image2 {
+        width: 276px;
+    }
+    .image {
+        /* margin: auto; */
+        margin: 0;
+    }
+    .decor {
+        /* height: 263px; */
+        width: 500px;
+    }
+    .content-right-third {
+        /* margin: auto; */
+        /* padding: 7px; */
+        /* width: 63%; */
+        margin-bottom: 10px;
+        margin-top: -5px;
+        border: 1px solid gainsboro;
+    }
+}
+
+/* @media only screen and (max-width: 1000px) {
+    body {
+      background-color: rgb(211, 208, 44);
+    }
+    .navbar{
+        display: none;
+    }
+  } */

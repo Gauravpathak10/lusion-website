@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0px 2px 0px black;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-right li {
+    list-style: none;
+    display: inline-block;
+    color: black;
+    padding: 5px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+/* pagination */
+
+.pagination {
+    box-sizing: border-box;
+    /* text-align: center; */
+    display: inline-block;
+}
+
+.pagination ul {
+    list-style: none;
+    padding: unset;
+}
+
+.pagination li {
+    display: inline;
+    padding: 15px;
+    margin: -2px;
+    /* background-color: burlywood; */
+    border: 1px solid rgb(167, 153, 153);
+    font-size: 17px;
+}
+
+.pagination li:hover {
+    background-color: white;
+    color: black;
+}
+
+.pagination a {
+    color: rgb(250, 248, 245);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* pagination-end */
+
+.flex-content {
+    display: flex;
+    padding: 25px;
+    /* background-color: bisque; */
+}
+
+.flex-content img {
+    width: 600px;
+    border: 1px solid rgb(182, 171, 171);
+}
+
+.addtocart {
+    display: inline-block;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.right-content {
+    margin-left: 20px;
+}
+
+.right-content button {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid gainsboro;
+    padding: 4px;
+    margin-left: 13px;
+}
+
+input {
+    width: 385px;
+    outline: none;
+    border: none;
+    margin: 9px;
+    border-bottom: 1px solid rgb(134, 126, 126);
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+.form {
+    /* width:430px; */
+}
+
+input[type="submit"] {
+    width: 66px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.submit {
+    text-align: end;
+    width: 627px;
+}
+
+textarea {
+    width: 598px;
+    padding: 5px;
+    margin: 9px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(134, 126, 126);
+}
+
+.share {
+    border-top: 1px solid rgb(134, 126, 126);
+    border-bottom: 1px solid rgb(134, 126, 126);
+    padding: 11px;
+    color: rgb(14, 13, 13);
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.share i {
+    padding: 5px;
+    color: rgb(112, 112, 112);
+}
+
+button i {
+    padding: 11px;
+    color: black;
+    font-size: 19px;
+}
+.right-content h2{
+    font-family: serif;
+    font-size: 18px;
+}
+.right-content h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+    color: rgb(66, 60, 60);
+}
+.fa-star{
+   
+    color: rgb(179, 143, 143);
+}
+.fa-star:hover{
+    color: rgb(8, 0, 0);
+}
+/* third-sect */
+
+.fourth-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourth-section-child {
+    /* width: 300px;
+    height: 358px; */
+    overflow: hidden;
+}
+figure{
+    overflow: hidden;
+}
+
+.fourth-section-child img {
+    /* height: 356px; */
+    width: 256px;
+}
+
+.forth-icons {
+    position: absolute;
+    color: #000;
+    top: -19px;
+    /* z-index: 4; */
+    transform: translate(7em, 19em);
+}
+
+.forth-icons i {
+    padding: 5px;
+    margin: 5px;
+    /* background: beige; */
+    border: 1px solid burlywood;
+    display: inline-block;
+    font-size: 18px;
+    color: #E1AA5E;
+    visibility: hidden;
+}
+
+.forth-icons i:nth-child(1) {
+    background: #E1AA5E;
+    color: white;
+}
+
+#zoom-In-out {
+    border: 1px solid rgb(7, 7, 7);
+    position: relative;
+    /* height: 357px; */
+}
+
+.image #zoom-In-out figure img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.image #zoom-In-out figure:hover img {
+    transform: scale(1.5);
+}
+
+#zoom-In-out:hover i {
+    transform: translateY(-10px);
+    transform-origin: top;
+    transition: 1s ease-in-out;
+    border: 1px solid burlywood;
+    visibility: visible;
+    font-size: 18px;
+}
+h1{
+    font-family: serif;
+    /* padding: 82px; */
+   text-align: center;
+}
+/* footer */
+.footer-display{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 80px;
+    border-top: 1px solid gainsboro;
+    
+}
+.footer-display i{
+    padding: 5px;
+    color: rgb(12, 11, 11);
+    
+}
+.foot{
+    line-height: 3;
+    padding: 10px;
+}
+.foot h1{
+    font-size: 18px;
+    text-transform: capitalize;
+    display: inline-block;
+
+}
+.foot h2{
+    font-size: 15px;
+    color:rgb(154,154,154);
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.foot h2:hover{
+    color:  rgb(225,170,94);
+}
+input{
+    width: 262px;
+    border: 1px solid #cebbbb;
+    padding: 12px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+.foot button{
+    padding: 9px;
+    width: 50px;
+    color: rgb(252, 250, 248);
+    border: none;
+    background-color: rgb(225,170,94);
+}
+.foot button i{
+    color:white;
+}
+.foot i{
+    color:rgb(154,154,154);
+}
+input:focus{
+    border: 1px solid #cebbbb;
+    outline: none;
+}
+/* last-footer */
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    height: 50px;
+}
+.last-footer h1{
+    color: white;
+    font-size: 17px;
+    font-family:sans-serif;
+    text-transform: capitalize;
+}
+.last-foot-bc{
+    background-color:rgb(12, 12, 12);
+}
+.footer-display img{
+    width: 111px;
+}

@@ -1,0 +1,78 @@
+@media only screen and (max-width:1496px) {
+    .navbar{
+        display: none;
+    }
+    /* .head-language{
+        display: none;
+    }
+    input {
+        width: 707px;
+        color: white;
+        padding: 12px;
+        margin: 15px;
+        border: none;
+        text-transform: capitalize;
+        border-bottom: 1px solid white;
+        outline: none;
+        background-color: transparent;
+    } */
+    .last-foot-bc{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:1440px) {
+    .navbar{
+        display: none;
+    }
+    .head-language{
+        display: none;
+    }
+    input {
+        width: 707px;
+        color: white;
+        padding: 12px;
+        margin: 15px;
+        border: none;
+        text-transform: capitalize;
+        border-bottom: 1px solid white;
+        outline: none;
+        background-color: transparent;
+    }
+    .footer-display {
+        /* display: flex; */
+        justify-content: space-evenly;
+        padding: 20px;
+        display: block;
+        margin-top: 80px;
+        border-top: 1px solid gainsboro;
+    }
+    .map {
+        text-align: center;
+        width: auto;
+    }
+    .form-flex {
+        /* display: flex; */
+        display: block;
+        width: fit-content;
+        margin: 11px;
+        background: rgb(8, 0, 0);
+        justify-content: space-between;
+    }
+    .contact-flex {
+        /* display: flex; */
+        display: block;
+        width: fit-content;
+        padding: 0px;
+        /* padding: 32px; */
+        /* justify-content: center; */
+    }
+    input[type="submit"] {
+        /* width: 200px; */
+        width: auto;
+        color: black;
+        background-color: white;
+        text-transform: capitalize;
+    }
+    
+}
