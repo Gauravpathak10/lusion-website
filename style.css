@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300&family=Mochiy+Pop+P+One&display=swap');
 * {
     margin: 0%;
     padding: 0%;
@@ -24,19 +23,20 @@ a {
 
 .navbar {
     display: flex;
-    font-family: heebo, sans-serif;
     justify-content: space-between;
     align-items: center;
     background: white;
-    padding: 15px;
+    padding: 30px;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
-/* .nav-list {
-  
-} */
+.nav-list {
+    /* background-color: rgb(153, 117, 51); */
+    /* width: 30%; */
+    /* margin: auto; */
+}
 
 .nav-list ul {
     display: flex;
@@ -70,8 +70,8 @@ a {
 }
 
 .content-left h2 {
-    font-size: 2em;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3em;
+    font-family: -webkit-pictograph;
 }
 
 .content-left p {
@@ -149,7 +149,7 @@ a {
 }
 
 .row p {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -169,41 +169,13 @@ a {
 
 figure {
     overflow: hidden;
-    margin: 0 12px;
-}
-
-.fig-second-right {
-    overflow: hidden;
     margin: 0 10px;
 }
 
-/* .image2 {
-    padding: 10px;
-    overflow-x: hidden;
-} */
-
-#zoom-In figure img {
-    transform: scale(1.2);
-    transition: 0.3s ease-in-out;
-}
-
-#zoom-In figure:hover img {
-    transform: scale(1.3);
-}
-
-.image2 #zoom-In figure img {
-    transform: scale(1);
-    transition: 0.3s ease-in-out;
-    margin-bottom: -4px;
-}
-
-.image2 #zoom-In figure:hover img {
-    transform: scale(1.3);
-}
-
-.dear {
+.zoom-In{
     height: 263px;
-    width: 686px;
+    width: 200px;
+    width: fit-content;
 }
 
 .decor {
@@ -214,9 +186,8 @@ figure {
 .content-right-third {
     margin: auto;
     padding: 7px;
-    width: 97%;
     margin-bottom: 10px;
-    /* margin-top: -5px; */
+    margin-top: -5px;
     border: 1px solid gainsboro;
 }
 
@@ -282,48 +253,25 @@ figure {
     font-size: 18px;
 }
 
-.position-overlay {
+.position-hover {
     position: absolute;
-    top: 0px;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    /* background: #f0f8ff91; */
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.position-overlay,.fa-plus-circle:hover.hover-info {
-    visibility: visible;
-}
-
-.fa-plus-circle:hover.hover-info {
-    cursor: pointer;
-    visibility: visible;
-    transition: 0.3s all;
-}
-
-.hover-info {
-    position: relative;
-    background: #d4c8c84a;
-    transform: translateY(80px);
-    border-radius: 5px;
-    text-align: center;
-    font-size: 10px;
+    /* margin-top: -20px; */
+    top: -16px;
+    left: 32px;
+    background: grey;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
     visibility: hidden;
 }
 
-.point {
+.position-hovr {
     position: absolute;
-    top: 31px;
-    left: 20px;
-    width: 0;
-    transform: rotate( -245deg);
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 12px solid #d4c8c84a;
+    top: -16px;
+    left: 74px;
+    background: gray;
+    color: white;
+    visibility: hidden;
 }
 
 /* .fa-plus-circle:hover.position-hovr {
@@ -338,20 +286,18 @@ figure {
     justify-content: space-around;
     margin: 20px;
 }
-
-.product {
+.product{
     text-align: center;
     margin: 20px;
     padding: 21px;
-    text-transform: capitalize;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-transform: capitalize;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h4 {
     margin: 5px;
 }
-
-.div-btn2 {
+.div-btn2{
     text-align: center;
     margin: 80px;
 }
@@ -362,154 +308,132 @@ h4 {
     background-color: #E1AA5E;
     color: white;
     border: 1px solid #E1AA5E;
+   
 }
 
 /* trial */
-
-.main-five-flex {
+.main-five-flex{
     display: flex;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(235, 238, 238);
+    background-color:rgb(235,238,238);
 }
 
-button {
+
+button{
     padding: 16px;
     margin: 6px;
     border: 1px solid burlywood;
     width: 208px;
 }
-
-.figure2 {
+.figure2{
     width: 190px;
     border: 1px solid burlywood;
+   
     display: inline-block;
 }
-
-.figure2 img {
+.figure2 img{
     height: 250px;
     background-color: white;
     /* margin: auto; */
 }
 
-.zoom-In {
-    width: 673px;
-    margin-top: 15%;
-}
 
-.zoom-In h1 {
+.zoom-In h1{
     padding: 10px;
     color: brown;
 }
-
-.zoom-In-five h1 {
-    padding: 10px;
+.zoom-In-five h1{
+    padding: 10px ;
     color: rgb(10, 10, 10);
     text-transform: capitalize;
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.zoom-In-five p {
+.zoom-In-five p{
     padding: 10px;
     line-height: 3;
     color: rgb(5, 5, 5);
     text-transform: capitalize;
     font-size: 20px;
 }
-
-.content-right-five a {
+.content-right-five a{
     font-size: 18x;
     float: right;
-    color: #E1AA5E;
+    color: #E1AA5E;;
     margin-top: -72px;
 }
-
-.content-right-five a:hover {
-    text-decoration: underline;
+.content-right-five a:hover{
+   text-decoration: underline;
 }
-
-.content-right-five {
+.content-right-five{
     background-color: white;
 }
-
-.content-right-five h1, p {
+.content-right-five h1,p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: white; */
-    padding: 10px;
     text-transform: capitalize;
 }
-
-.figure1 img {
+.figure1 img{
     width: 100%;
 }
-
 /* footer */
-
-.footer-display {
+.footer-display{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+    
 }
-
-.footer-display i {
+.footer-display i{
     padding: 5px;
     color: rgb(12, 11, 11);
+    
 }
-
-.foot {
+.foot{
     line-height: 3;
     padding: 10px;
 }
-
-.foot h1 {
+.foot h1{
     font-size: 18px;
     text-transform: capitalize;
-}
 
-.foot h2 {
+}
+.foot h2{
     font-size: 15px;
-    color: rgb(154, 154, 154);
+    color:rgb(154,154,154);
     text-transform: capitalize;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
-
-.foot h2:hover {
-    color: rgb(225, 170, 94);
+.foot h2:hover{
+    color:  rgb(225,170,94);
 }
-
-input {
+input{
     width: 262px;
     border: 1px solid #cebbbb;
     padding: 12px;
     text-transform: capitalize;
     box-sizing: border-box;
 }
-
-.foot button {
+.foot button{
     padding: 9px;
     width: 50px;
     border: none;
     color: rgb(252, 250, 248);
-    background-color: rgb(225, 170, 94);
+    background-color: rgb(225,170,94);
 }
-
-.foot button i {
-    color: white;
+.foot button i{
+    color:white;
 }
-
-.foot i {
-    color: rgb(154, 154, 154);
+.foot i{
+    color:rgb(154,154,154);
 }
-
-input:focus {
+input:focus{
     border: 1px solid #cebbbb;
     outline: none;
 }
-
 /* last-footer */
-
-.last-footer {
+.last-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -517,25 +441,24 @@ input:focus {
     margin: auto;
     height: 50px;
 }
-
-.last-footer h1 {
+.last-footer h1{
     color: white;
     font-size: 17px;
-    font-family: sans-serif;
+    font-family:sans-serif;
     text-transform: capitalize;
 }
-
-.last-foot-bc {
-    background-color: rgb(12, 12, 12);
+.last-foot-bc{
+    background-color:rgb(12, 12, 12);
 }
-
-.navbar a:hover {
-    transition: 1s all;
-    border: none;
-    text-decoration: underline;
-}
-
-/* .navbar a::after{
+/* .navbar a:hover{
+   
+    /* transition: 1s all;
+    border-bottom: 1px solid gold;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ; 
+  
+} */
+.navbar a::after{
     content: '';
     width: 7px;
     top: 63px;
@@ -555,4 +478,24 @@ input:focus {
     transform: scaleX(5);
     transition: 1s linear;
     transform-origin: center;
-} */
+}
+
+.side-image-sec{
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.side-image-sec .img-banner img{
+    max-height: 185px;
+    width: 100%;
+    object-fit: cover;
+}
+.img-banner{
+    width: 47%;
+    margin: 0px 10px;
+}
+.zoom-banner-img:hover{
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}

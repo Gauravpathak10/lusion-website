@@ -1,8 +1,15 @@
 @media only screen and (max-width: 1264px) {
     body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .side-image-sec{
+        display: block;
+        margin-left: unset;
+    }
+    .img-banner{
+        width: unset;
+        margin: unset;
     }
     .navbar {
         display: none;
@@ -37,11 +44,13 @@
         background-color: white;
         text-align: center;
         padding: 5px;
+        
+    line-height: 44px;
     }
     .main-five-flex {
+        padding: 10px;
+        margin: unset;
         display: block;
-        margin: 20px;
-        padding: 20px;
         background-color: rgb(235, 238, 238);
     }
     .content-right-five a {
@@ -49,6 +58,7 @@
         /* float: right; */
         color: #E1AA5E;
         display: contents;
+      
     }
     .zoom-In-five p {
         padding: 10px;
@@ -138,7 +148,7 @@
         /* margin: auto; */
         padding: 7px;
         text-align: center;
-        width: 66%;
+        /* width: 66%; */
         margin-bottom: 10px;
         margin-top: -5px;
         border: 1px solid gainsboro;
